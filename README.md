@@ -25,7 +25,7 @@ We created two schemas in our model one for UserModel,js which are used in AuthC
 }
 Passowrd in encrypted form because we use in our project on jwt authentication.
 # Sign up Pics
-![image](https://github.com/AseefAhmed-coder/login-backend/assets/130729918/85b68c06-52e4-4c42-92a0-222be4a39a72)
+[image](https://github.com/AseefAhmed-coder/login-backend/assets/130729918/85b68c06-52e4-4c42-92a0-222be4a39a72)
 ![image](https://github.com/AseefAhmed-coder/login-backend/assets/130729918/b20b56f9-71b4-4839-9aef-94c652e5827e)
 
 # Post Request URL on LoginPage
