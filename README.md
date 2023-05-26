@@ -25,8 +25,10 @@ We created two schemas in our model one for UserModel,js which are used in AuthC
 }
 Passowrd in encrypted form because we use in our project on jwt authentication.
 # Sign up Pics
-![image](https://github.com/AseefAhmed-coder/login-backend/assets/130729918/85b68c06-52e4-4c42-92a0-222be4a39a72)
-![image](https://github.com/AseefAhmed-coder/login-backend/assets/130729918/b20b56f9-71b4-4839-9aef-94c652e5827e)
+![signup image1](https://github.com/AseefAhmed-coder/backendMERN/assets/130729918/1f1fdc35-0c23-48cb-a5ef-ee86a30e68bc)
+
+![signupimage2](https://github.com/AseefAhmed-coder/backendMERN/assets/130729918/39c90c8c-94c9-4ef1-8a29-1e4709de46d4)
+
 
 # Post Request URL on LoginPage
 2. Second if your sign in then u can login the page on http://localhost:4000/login
@@ -36,13 +38,16 @@ Passowrd in encrypted form because we use in our project on jwt authentication.
     "password": "test99"
 }
 # Login Pics
-![image](https://github.com/AseefAhmed-coder/login-backend/assets/130729918/862e1813-1b28-4092-b99b-e851dd3d84cb)
-![image](https://github.com/AseefAhmed-coder/login-backend/assets/130729918/3040ca3e-c69c-4644-878b-31e414150fdc)
+![login imgae1](https://github.com/AseefAhmed-coder/backendMERN/assets/130729918/5431afc5-4b9f-47aa-9c08-475132b9ccb4)
+
+![login image 2](https://github.com/AseefAhmed-coder/backendMERN/assets/130729918/1bdebea2-7d61-42f6-84ba-0a0f6171c0f2)
+
 
 # Get Requeste URL on Home Page 
 3. Get All the client record in our database show on postman http://localhost:4000/getclient
 # getClient Data Pics
-![image](https://github.com/AseefAhmed-coder/login-backend/assets/130729918/734ecb21-b0ff-46f0-b933-57fd981560a1)
+![getclient1](https://github.com/AseefAhmed-coder/backendMERN/assets/130729918/073b9d3d-2481-4fa4-bc6a-d7cd38e947d5)
+
 In this pic we shows that our client data is also verify and check with my user because we used in jwt authentication.
 
 # Post Request URL on Home Page
@@ -60,12 +65,14 @@ In this pic we shows that our client data is also verify and check with my user 
 }
 user object id pass to join both tables.
 # addClient Data Pic
-![image](https://github.com/AseefAhmed-coder/login-backend/assets/130729918/c1dd7c6c-1266-4c3f-a6b2-c264927f8167)
+![addclient1](https://github.com/AseefAhmed-coder/backendMERN/assets/130729918/bcc2dd8f-3820-4575-8cec-b1b2a3696797)
+
 
 # Get request URL by only one unique ID
 5. Get the client by its unique ID on http://localhost:4000/getclient/id
 # get only one client pics
-![image](https://github.com/AseefAhmed-coder/login-backend/assets/130729918/e8da8b52-628e-4853-9173-0297c8220585)
+![getclient id](https://github.com/AseefAhmed-coder/backendMERN/assets/130729918/4814c78b-f8c3-4540-84e7-7f7bb3abddfa)
+
 
 # Put and Patch request by unique id
 6. post and patch method using by unique id to update the userdata on http://localhost:4000/updateclient/id
@@ -81,12 +88,14 @@ user object id pass to join both tables.
     "user": "64702aae4778fda713cd8742"
 }
 # Post/update the only one user data pic
-![image](https://github.com/AseefAhmed-coder/login-backend/assets/130729918/2c89ef08-3b32-4e8f-8977-c720113b84f6)
+![updateclient1](https://github.com/AseefAhmed-coder/backendMERN/assets/130729918/06e6d3b0-fc8f-41fc-a846-87f0cb200002)
+
 
 # Delete request by unique id
 7. delete the user by some unique id in our database http://localhost:4000/deleteclient/id
 # pics of delete client
-![image](https://github.com/AseefAhmed-coder/login-backend/assets/130729918/dd3141ed-80e4-433c-a505-75bc881461e8)
+![deleteclient1](https://github.com/AseefAhmed-coder/backendMERN/assets/130729918/4f0b312b-d16a-431d-ad7c-d3c812570abc)
+
 
 
 ## Environment Variables
@@ -98,29 +107,36 @@ TOKEN_KEY=""
 set the MONGO-URL, Token Key and PORT number.
 
 ## Folder and File Structure in our backend project
-![image](https://github.com/AseefAhmed-coder/login-backend/assets/130729918/7ff8a7be-9908-4fbb-b84c-f4e2f9b15b84)
+![file structure](https://github.com/AseefAhmed-coder/backendMERN/assets/130729918/2bb98217-d075-4c26-8281-c70c095fea6b)
+
 
 1. we create a Controller Folder -> AuthContorller.js and ClientController.js
-![image](https://github.com/AseefAhmed-coder/login-backend/assets/130729918/7080ffbb-ad54-4ecd-b4f1-6b7c55646d14)
-![image](https://github.com/AseefAhmed-coder/login-backend/assets/130729918/f842651d-030f-4b78-80b2-4362b7efc26f)
+![image1](https://github.com/AseefAhmed-coder/backendMERN/assets/130729918/b3da7069-f590-4ae2-a108-b96577445398)
+![image1 1](https://github.com/AseefAhmed-coder/backendMERN/assets/130729918/63513a99-d426-4fd2-bccf-5dcf97680ba1)
+
 
 2. create a middleware Folder -> AuthMiddleware.js and ClientMiddleware.js
-![image](https://github.com/AseefAhmed-coder/login-backend/assets/130729918/c2bd6a5f-e0bc-43eb-8122-e8a693d40e48)
-![image](https://github.com/AseefAhmed-coder/login-backend/assets/130729918/fae06780-5b1c-4442-a5df-b77cf1ee4358)
+![image2](https://github.com/AseefAhmed-coder/backendMERN/assets/130729918/37bed7b6-067b-4dd1-a51f-675897202511)
+![image2 2](https://github.com/AseefAhmed-coder/backendMERN/assets/130729918/884b4f0f-75b2-4693-a1cf-7f2e6f9aaf97)
+
 
 3. create a model folder -> Client.js schema and UserModel.js Schema to set the fields for mongodb database
-![image](https://github.com/AseefAhmed-coder/login-backend/assets/130729918/71e1bfa4-11d6-4369-973c-34fb8efc4ec8)
-![image](https://github.com/AseefAhmed-coder/login-backend/assets/130729918/097073e3-2780-47be-bcd4-db4a1ef49356)
+![image3](https://github.com/AseefAhmed-coder/backendMERN/assets/130729918/c6eb28ab-baa1-4c88-84bf-311ae9acf611)
+![image3 3](https://github.com/AseefAhmed-coder/backendMERN/assets/130729918/541e48a3-1876-483d-a557-206b308436c0)
+
 
 4. create a Routes folder - > routes define for User and Client to hit the URL.
-![image](https://github.com/AseefAhmed-coder/login-backend/assets/130729918/c709c805-2c9d-4f4b-9288-98aefa9b9156)
+![image4](https://github.com/AseefAhmed-coder/backendMERN/assets/130729918/fe8921e9-555c-44be-896c-06ce16422c70)
+
 
 5. create a util folder - > SecretToken.js and validareClient.js
-![image](https://github.com/AseefAhmed-coder/login-backend/assets/130729918/6f00056b-fa66-4b5b-8a4b-ba0e1dbdbef5)
-![image](https://github.com/AseefAhmed-coder/login-backend/assets/130729918/29d0744e-51ce-47a2-995b-b4d81015785f)
+![image5 5](https://github.com/AseefAhmed-coder/backendMERN/assets/130729918/4b249a7c-e862-423a-9276-cf35ca6a3063)
+![image5](https://github.com/AseefAhmed-coder/backendMERN/assets/130729918/077ad572-1c30-48f1-b9ca-818a6bcc57b5)
+
 
 6. index.js file 
-![image](https://github.com/AseefAhmed-coder/login-backend/assets/130729918/03249c31-f2b9-4996-beaa-88c070595a78)
+![image6](https://github.com/AseefAhmed-coder/backendMERN/assets/130729918/6756dc01-4c89-4959-8ee6-39532081d2dc)
+
 
 ## Author 
 Aseef Ahmed
